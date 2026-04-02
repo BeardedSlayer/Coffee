@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 .container {
@@ -555,4 +554,41 @@
     font-size: 16px;
     line-height: 19px;
     color: #BBBBBB;
+}
+
+.cart-controls,
+.cart-total {
+    background: #5F413C;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.total {
+    background: #64514d;
+    margin-top: 5px
+}
+
+.increase-btn,
+.decrease-btn,
+.remove-btn{
+    background: #64514d;
+    font-family: "Roboto Medium", sans-serif;
+    border: none;
+    border-radius: 30px;
+}
+
+.increase-btn {
+    width: 30px;
+    height: 30px;
+}
+
+.decrease-btn {
+    width: 30px;
+    height: 30px;
+}
+
+.remove-btn {
+    width: 100px;
+    height: 30px;
 }
